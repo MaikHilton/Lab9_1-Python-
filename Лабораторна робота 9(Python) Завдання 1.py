@@ -8,7 +8,7 @@ def create_file():
                 "Тепер замінимо 1 на 0 і 0 на 1."
             ]
             for line in lines:
-                file.write(line)
+                file.write(line + 'n')
         print("Файл TF23_1 створено.")
     except:
         print("Помилка під час створення або запису у файл TF23_1.")
